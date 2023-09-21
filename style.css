@@ -10,8 +10,7 @@ body{
     /*font-family: 'Quicksand', sans-serif;*/
 }
 #opening{
-    height: 130px;
-    
+    height: 150px;   
 }
 
 h1{color:#FBFFDC; font-size: 2rem;}
@@ -73,10 +72,11 @@ nav{
     font-size: 1.3rem; font-weight: 1000;padding: 2px;
 }
 .firstSection{
-    margin: 3%;margin-top: 80px;
+    margin-left: 4%;margin-right: 4%;
+    margin-top: 80px;
     display: flex;
     justify-content: space-around;
-    height: 500px;
+    height: fit-content;
 }
 .resume_button{
     margin-bottom: 10%;
@@ -91,8 +91,24 @@ nav{
 }
 
 .secondSection{
-    margin-left: 7%;margin-right: 7%;
-    height: 800px;    
+    margin-left: 3%;margin-right: 3%;
+    height: fit-content; 
+    margin: 2%;
+    padding: 2%;   
+}
+#project {
+    height: fit-content;
+}
+#headline{
+    margin-bottom:  10px; 
+}
+#intership{
+    margin-left:4%;
+    margin-right:4%;
+    height: fit-content; 
+    padding: 2%; 
+    margin-bottom: 20px;
+
 }
 .footer{
     background-color: rgb(50, 109, 109); 
@@ -139,4 +155,60 @@ a:hover{
     color:white;
 }button:hover{
     background-color: black;
+}
+@media only screen and (max-width: 720px){
+
+    nav{
+        height: 80px;
+    }
+    .leftnav{
+        text-align: center;
+        margin: 10px auto;
+        font-size: 1rem;
+        float:none;
+        padding: 0%;
+    }
+    .rightnav{
+        padding: 5px;
+        float: none;
+        margin-right: 2%; 
+        font-size: 0.8rem;   
+        text-align: center;
+    }
+    .firstSection{
+        margin-top: 80px;
+        display:block;
+        justify-content: space-around;
+        height: fit-content;
+    }
+    #devpng{
+        width: 120px;
+        height: 110px;
+        border-radius: 40%;
+        opacity: 0.98;
+        padding-top: 1px;
+    }
+    .ls{
+        margin-top: 40px;
+    }
+    .rs{
+        height: fit-content;
+        float: right;
+    }
+    #opening{
+
+        padding-top: 20px;
+        height: 190px;   
+    }
+    .firstSection{
+        
+        margin-bottom: 30px;
+    }
+    .footerItems li{
+        padding-left: 10px;
+        padding-right: 10px;
+
+    }
+    
+    
 }
