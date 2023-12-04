@@ -91,10 +91,11 @@ nav{
 }
 
 .secondSection{
-    margin-left: 3%;margin-right: 3%;
+    margin-left:4%;
+    margin-right:4%;
     height: fit-content; 
-    margin: 2%;
-    padding: 2%;   
+    padding: 2%; 
+    margin-bottom: 20px;   
 }
 #project {
     height: fit-content;
