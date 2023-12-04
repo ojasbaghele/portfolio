@@ -1,0 +1,34 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #8cdabb;
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    /* font-family: 'Quicksand', sans-serif; */
+}
+h1{color:#FBFFDC; font-size: 2rem;}
+h2{color: rgb(50, 109, 109);padding: 10px; font-size: 2rem;}
+h3{font-family: 'Quicksand', sans-serif; color: rgba(0, 0, 0, 0.818); }
+h4{font-weight: 100; font-size: small;}
+
+a:-webkit-any-link {
+    color: rgb(50, 109, 109);
+    text-decoration: none;
+}
+li::marker{
+    color: rgb(75, 133, 133);   
+}
+.Content{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
